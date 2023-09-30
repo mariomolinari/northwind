@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: erp_northwind
+    description: fonte erp de vendas
+    schema: erp_northwind
+
+    tables: 
+      - name: products  
+      - name: categories 
+      - name: suppliers 
+
+       
